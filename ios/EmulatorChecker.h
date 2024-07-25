@@ -2,11 +2,11 @@
 #ifdef RCT_NEW_ARCH_ENABLED
 #import "RNEmulatorCheckerSpec.h"
 
-@interface EmulatorChecker : NSObject <NativeEmulatorCheckerSpec>
+@interface EmulatorChecker : NSNumber <NativeEmulatorCheckerSpec>
 #else
 #import <React/RCTBridgeModule.h>
 
-@interface EmulatorChecker : NSObject <RCTBridgeModule>
+@interface EmulatorChecker : NSNumber <RCTBridgeModule>
 #endif
 
 @end

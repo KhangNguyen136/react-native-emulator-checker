@@ -8,7 +8,7 @@ RCT_EXPORT_MODULE()
 RCT_EXPORT_METHOD(isEmulator:(RCTPromiseResolveBlock)resolve
                   reject:(RCTPromiseRejectBlock)reject)
 {
-    resolve(false);
+    resolve(@NO);
 }
 
 
