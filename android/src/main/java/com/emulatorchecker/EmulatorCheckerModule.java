@@ -28,7 +28,7 @@ public class EmulatorCheckerModule extends ReactContextBaseJavaModule {
   @ReactMethod
   public void isEmulator(Promise promise) {
     EmulatorDetector.with(getReactApplicationContext())
-    .setCheckTelephony(true)
+    .setCheckTelephony(false)
     .addPackageName("com.bluestacks")
     .setDebug(true)
     .detect(new EmulatorDetector.OnEmulatorDetectorListener() {
