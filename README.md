@@ -1,12 +1,6 @@
 # react-native-emulator-checker
 
-Emulator checking for Android in React Native. Implemented using [`android-emulator-detector`](https://github.com/framgia/android-emulator-detector).
-
-## Installation
-
-```sh
-npm install react-native-emulator-checker
-```
+Emulator checking for Android in React Native. Implemented using [`Android-Emulator-Detection`](https://github.com/reveny/Android-Emulator-Detection).
 
 ## Usage
 
@@ -15,7 +9,7 @@ import { isEmulator } from 'react-native-emulator-checker';
 
 // ...
 
-const isEmulator = await isEmulator();
+const checkEmulatorResult = await isEmulator();
 ```
 
 ## Contributing
